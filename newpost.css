@@ -1,0 +1,29 @@
+.new-post-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* center heading + radio buttons */
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.post-type-box {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  gap: 16px;
+  padding: 12px 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  background: #fafafa;
+  margin: 0 auto 24px;
+  width: fit-content; 
+}
+
+.post-type-box .label {
+  font-weight: 600;
+  margin-right: 8px;
+}
